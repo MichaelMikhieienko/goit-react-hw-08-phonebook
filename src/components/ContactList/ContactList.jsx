@@ -1,17 +1,18 @@
 // ContactList.jsx
-import React, { Fragment } from 'react';
+import React, {Fragment} from 'react';
 import PropTypes from 'prop-types';
 import ContactItem from '../ContactItem/ContactItem';
+import {List} from '@mui/joy';
 
-const ContactList = ({ contacts }) => {
+const ContactList = ({contacts}) => {
   return (
-    <div>
+    <List>
       {contacts.map(contact => (
         <Fragment key={contact.id}>
           <ContactItem contact={contact} />
         </Fragment>
       ))}
-    </div>
+    </List>
   );
 };
 
@@ -20,8 +21,8 @@ ContactList.propTypes = {
     PropTypes.shape({
       id: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
-      Phone: PropTypes.string.isRequired,
-    })
+      number: PropTypes.string.isRequired,
+    }),
   ).isRequired,
 };
 

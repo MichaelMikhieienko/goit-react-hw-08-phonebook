@@ -13,3 +13,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-link {
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.nav-link:active {
+  background-color: #eaeef6;
+  color: black;
+}
