@@ -95,7 +95,7 @@ Trebuie să configurați suplimentar componenta <BrowserRouter>` prin trecerea �
 basename numele exact al repository-ului dumneavoastră. O bară oblică la începutul liniei este obligatorie.
 
 jsx
-<BrowserRouter basename="/your_repo_name">
+<BrowserRouter basename="goit-react-hw-08-phonebook">
   <App />
 </BrowserRouter>
 
