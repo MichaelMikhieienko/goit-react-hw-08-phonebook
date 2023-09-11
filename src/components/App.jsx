@@ -21,7 +21,7 @@ const PrivateRoutes = ({isAuth, redirectPath = '/login'}) => {
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="goit-react-hw-08-phonebook">
       <div>
         <Navigation />
         <Routes>
