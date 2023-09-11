@@ -99,7 +99,7 @@ propsie `basename` dokładną nazwę twojego repozytorium. Slash na początku i 
 końcu łańcucha jest obowiązkowy.
 
 ```jsx
-<BrowserRouter basename="goit-react-hw-08-phonebook">
+<BrowserRouter basename="/your_repo_name/">
   <App />
 </BrowserRouter>
 ```

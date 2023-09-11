@@ -86,7 +86,7 @@ of your repository in the `basename` prop. Slashes at the beginning and end of
 the line are required.
 
 ```jsx
-<BrowserRouter basename="goit-react-hw-08-phonebook">
+<BrowserRouter basename="/your_repo_name/">
   <App />
 </BrowserRouter>
 ```

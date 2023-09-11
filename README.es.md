@@ -87,7 +87,7 @@ prop `basename`, el nombre exacto de tu repositorio. Las barras inclinadas al
 principio y al final de la cadena son obligatorias.
 
 ```jsx
-<BrowserRouter basename="goit-react-hw-08-phonebook">
+<BrowserRouter basename="/your_repo_name/">
   <App />
 </BrowserRouter>
 ```
